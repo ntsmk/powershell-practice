@@ -1,5 +1,5 @@
 # add new user
-New-ADUser N.Kosaka
+New-ADUser NK
 
 # check all user
 Get-ADUser -Filter * -Properties samAccountName | select samAccountName
